@@ -1,0 +1,8 @@
+ld x7,0(x0)
+addi x11,x11,666
+add x7,x7,x7
+sd x11,0(x11)
+ld x10,0(x11)
+Mul x4,x10,x10
+Mulh x8,x10,x10
+break
