@@ -389,7 +389,7 @@ module CPU
 	register EPC( 						.clk(						clock								), 
 										.reset(						reset								), 
 										.regWrite(					EPC_wr								), 
-										.DadoIn(					ULA_Out								), 
+										.DadoIn(					Reg_ULAOut_Out						), 
 										.DadoOut(					EPC_Out								)
 																										);
 //_____________________________________________________________________________________________________
